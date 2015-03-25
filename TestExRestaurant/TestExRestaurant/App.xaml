@@ -1,0 +1,17 @@
+﻿<Application x:Class="TestExRestaurant.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TestExRestaurant">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <local:AppBootstrapper x:Key="Bootstrapper" />
+                </ResourceDictionary>
+                <ResourceDictionary Source="/ReuxablesLegacy;component/mercury.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Resources/UI.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Resources/SearchTextBox.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

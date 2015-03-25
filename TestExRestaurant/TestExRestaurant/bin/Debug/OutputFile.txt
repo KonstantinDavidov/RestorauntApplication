@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Dishes>
+    <Dish>
+      <Name>Burger</Name>
+      <CategoryName>
+        <Name>Fast Food</Name>
+      </CategoryName>
+      <Price>2</Price>
+    </Dish>
+    <Dish>
+      <Name>PizzaOne</Name>
+      <CategoryName>
+        <Name>Pizza</Name>
+      </CategoryName>
+      <Price>20</Price>
+    </Dish>
+    <Dish>
+      <Name>PizzaTwo</Name>
+      <CategoryName>
+        <Name>Pizza</Name>
+      </CategoryName>
+      <Price>22</Price>
+    </Dish>
+    <Dish>
+      <Name>Beer</Name>
+      <CategoryName>
+        <Name>Drink</Name>
+      </CategoryName>
+      <Price>1</Price>
+    </Dish>
+  </Dishes>
+  <Categories>
+    <Category>
+      <Name>Drink</Name>
+    </Category>
+    <Category>
+      <Name>Pizza</Name>
+    </Category>
+    <Category>
+      <Name>Fast Food</Name>
+    </Category>
+  </Categories>
+</Menu>
